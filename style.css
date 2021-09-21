@@ -50,11 +50,5 @@ body {
     margin: 0 0 15px 0;
     padding: 0 0 0 36px;
     font-size: 20px;
-    background: url(/img/icons/icon.png) no-repeat;
+    background: url(img/icons/icon.png) no-repeat;
 }
-
-
-
-.header__image {
-}
-
