@@ -52,3 +52,185 @@ body {
     font-size: 20px;
     background: url(img/icons/icon.png) no-repeat;
 }
+
+
+.what {
+    padding: 50px 0px;
+}
+
+.what__row {
+    display: flex;
+}
+.what__image {
+    flex: 0 0 430px;
+}
+.what__text {
+    padding: 0 0 0 38px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.what__title {
+    margin: 0 0 35px 0;
+}
+
+.title {
+    color: #445161;
+	font-size: 30px;
+}
+
+.what__paragraphs p {
+    padding: 0 0 15px 0;
+}
+
+
+.columns {
+    background-color: #f5f5f5;
+    padding: 50px 0 20px 0;
+}
+
+.columns__title {
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.columns__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -8px;
+}
+
+.columns__column {
+    flex: 0 1 50%;
+    padding: 0px 8px;
+    margin: 0px 0px 30px 0px;
+}
+
+.item__row {
+    display: flex;
+}
+
+.item__image {
+    flex: 1 1 200px;
+}
+
+.item__text {
+    padding: 0px 0px 0px 15px;
+    flex: 1 1 auto;
+}
+
+.item__title-title {
+    color: #445161;
+	font-size: 24px;
+	margin: 0px 0px 15px 0px;
+}
+
+.item__paragraph {
+    color: #333333;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+.container-vert {
+    max-width: 990px;
+    margin: 0px auto;
+}
+
+.vertical {
+    padding: 50px;
+}
+
+.vertical__title {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.vertical__row {
+    display: flex;
+    margin: 0px -22.5px;
+}
+
+.vertical__column {
+    flex: 0 1 33%;
+    padding: 0px 22.5px;
+    display: flex;
+}
+
+.vertical__item {
+    background-color: #445162;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #445162;
+    padding: 0px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical__title-title {
+    text-align: center;
+    padding: 15px 0;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.vertical__subtitle {
+    text-align: center;
+    background-color: white;
+    color: #445162;
+    font-size: 40px;
+    padding: 12px 0px;
+}
+
+.vertical__text p {
+    margin: 0px 0px 15px 0px;
+}
+
+.vertical__text {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    flex: 1 1 auto;
+}
+
+.vertical__text p:last-child {
+    margin-bottom: 0px;
+}
+
+.vertical__button {
+    display: block;
+    background-color: white;
+    color: #445162;
+    font-size: 18px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0px 20px;
+    line-height: 40px;
+    font-weight: 700;
+
+}
+
+
+.column1 {
+    align-self: center;
+}
+
+.column3 {
+    align-self: end;
+}
+
+
+.footer {
+    background-color: #feffd1;
+}
+.footer__row {
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+}
+.footer__text {
+    color: #445162;
+	font-size: 12px;
+	letter-spacing: 0.3px; 
+}
